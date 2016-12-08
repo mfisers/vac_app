@@ -1,0 +1,42 @@
+.app-header {
+  /*background-color: #567DFF;*/
+}
+
+/* Logo */
+.app-logo {
+  width: 40%;
+}
+.app-logo a {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* Navigation */
+.app-navigation {
+  width: 60%;
+}
+.app-navigation-menu {
+  padding-left: 150px;
+}
+
+.app-navigation-menu a {
+  color: white;
+  padding: 8px;
+  font-size: 18px;
+}
+
+.app-navigation-menu a:hover {
+   color: #B0E0E7;
+   font-weight: 570;
+}
+
+.verticalLine {
+  border-left: 0.1em solid white;
+}
+
+/* Carousel */
+.app-carousel {
+  width: 50%;
+  padding: 30px;
+}

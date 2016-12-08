@@ -1,24 +1,19 @@
-.App {
+.container {
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app-container {
+    width: 60%;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.app-container a {
+  text-decoration: none;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
