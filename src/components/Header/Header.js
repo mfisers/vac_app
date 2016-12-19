@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Header.css';
 import Navigation from './components/Navigation/Navigation';
-import Carousel from './components/Carousel/Carousel';
+//import Carousel from './components/Carousel/Carousel';
 import { Link } from 'react-router';
 
 class Header extends Component {
@@ -10,12 +10,11 @@ class Header extends Component {
       <div className="app-header">
         <div className="app-logo">
           <Link to="/home">
-          <h2>Hello World!</h2>
+          <h1>VAC</h1>
+          <h3>Vienotais Apgādes Centrs</h3>
           </Link>
         </div>
-        <div className="app-navigation">
         <Navigation />
-        </div>
       </div>
     );
   }

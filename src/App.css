@@ -1,19 +1,87 @@
-.container {
-  width: 100%;
-  background-color: bisque;
+.app-container-wrapper {
   display: flex;
-  display: -webkit-flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
+.app-content {
+  background-color: white;
+}
+
+/* Home Page */
+.app-content-page-text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.app-content-page-text a{
+  color: deepskyblue;
+}
+
+.product-container {
+  width: 100%;
+  padding: 20px;
+}
+
+/* 4k Screen */
 .app-container {
-    width: 60%;
-    background-color: aquamarine;
-    height: 100%;
+  width: 55%;
+  background-color: deepskyblue;
 }
 
-.app-container a {
-  text-decoration: none;
-  text-align: center;
+/* Large Screen */
+@media (max-width:1440px) {
+  .app-container {
+    width: 60%;
+  }
+}
+
+/* Medium Screen */
+@media (max-width:1024px) {
+  .app-container {
+    width: 77%;
+  }
+}
+
+/* Tablet */
+@media (max-width:800px) {
+  .app-container {
+    width: 100%;
+  }
+  .app-navigation a {
+    font-size: 1em;
+  }
+}
+
+/* Mobile */
+@media (max-width:500px) {
+  .app-container {
+    width: 100%;
+  }
+  .app-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  .app-navigation a {
+    padding: 6px 0px 6px 0px;
+  }
+  .verticalLine {
+    border: none;
+    height: 0px;
+    margin-top: 3px;
+  }
+  .app-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .app-logo {
+    padding-top: 10px;
+    width: auto !important;
+  }
 }

@@ -1,42 +1,40 @@
-.app-header {
-  /*background-color: #567DFF;*/
-}
 
-/* Logo */
-.app-logo {
-  width: 40%;
-}
-.app-logo a {
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-/* Navigation */
 .app-navigation {
-  width: 60%;
-}
-.app-navigation-menu {
-  padding-left: 150px;
-}
-
-.app-navigation-menu a {
-  color: white;
-  padding: 8px;
-  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 70px 10px 0px 0px;
+  width: 70%;
 }
 
-.app-navigation-menu a:hover {
-   color: #B0E0E7;
-   font-weight: 570;
+.app-navigation a {
+  padding: 0px 7px;
+  font-size: 1.1em;
+}
+
+.app-navigation a:hover {
+  color: #247BA0;
+  font-weight: 500;
+}
+
+.app-navigation a:focus {
+  color: #247BA0;
+}
+
+.app-header {
+  display: flex;
+}
+
+.app-logo {
+  width: 30%;
+  padding: 20px;
+}
+
+.app-logo h1, h3 {
+  margin: 0;
 }
 
 .verticalLine {
-  border-left: 0.1em solid white;
-}
-
-/* Carousel */
-.app-carousel {
-  width: 50%;
-  padding: 30px;
+  border-right: 0.1em solid white;
+  height: 20px;
+  margin-top: 1px;
 }

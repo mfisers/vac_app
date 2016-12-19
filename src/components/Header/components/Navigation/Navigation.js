@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 class Navigation extends Component {
   render() {
     return (
-        <div className="app-navigation-menu">
+        <div className="app-navigation">
           <Link to="/home">
             <span>Jaunumi</span>
           </Link>
