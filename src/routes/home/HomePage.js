@@ -10,35 +10,35 @@ class HomePage extends Component {
           <div className="app-content-page-text">
             <Link to="/home">
             <span>Produkts 1</span>
-            <img src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
+            <img alt="placeholder" src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
             </Link>
             <Link to="/home">
             <span>Produkts 2</span>
-            <img src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
+            <img alt="placeholder" src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
             </Link>
             <Link to="/home">
             <span>Produkts 3</span>
-            <img src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
+            <img alt="placeholder" src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
             </Link>
             <Link to="/home">
             <span>Produkts 4</span>
-            <img src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
+            <img alt="placeholder" src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
             </Link>
             <Link to="/home">
             <span>Produkts 5</span>
-            <img src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
+            <img alt="placeholder" src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
             </Link>
             <Link to="/home">
             <span>Produkts 6</span>
-            <img src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
+            <img alt="placeholder" src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
             </Link>
             <Link to="/home">
             <span>Produkts 7</span>
-            <img src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
+            <img alt="placeholder" src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
             </Link>
             <Link to="/home">
             <span>Produkts 8</span>
-            <img src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
+            <img alt="placeholder" src="http://larics.rasip.fer.hr/wp-content/uploads/2016/04/default-placeholder.png"/>
             </Link>
           </div>
       </div>

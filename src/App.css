@@ -9,12 +9,19 @@
   background-color: white;
 }
 
+.app-content-page {
+  padding: 20px;
+  border: 1px solid rgba(214, 214, 214, 0.8);
+}
+
 /* Home Page */
 .app-content-page-text {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 30px;
+  margin-top: 40px;
+  border-top: 1px solid rgba(214, 214, 214, 0.5);
+  padding-top: 15px;
 }
 
 .app-content-page-text a{
@@ -30,6 +37,15 @@
   width: 150px;
   height: 150px;
   padding: 10px;
+}
+
+/* Products Page */
+.app-page-products {
+  display: flex;
+}
+
+.app-page-products h3 {
+    padding: 20px;
 }
 
 /* 4k Screen */

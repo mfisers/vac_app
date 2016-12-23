@@ -9,7 +9,7 @@ class Navigation extends Component {
             <span>Jaunumi</span>
           </Link>
           <span className="verticalLine"></span>
-          <Link to="/contacts">
+          <Link to="/products">
             <span>Produkcija</span>
           </Link>
           <span className="verticalLine"></span>
@@ -17,7 +17,7 @@ class Navigation extends Component {
             <span>Pakalpojumi</span>
           </Link>
           <span className="verticalLine"></span>
-          <Link to="/contacts">
+          <Link to="/partners">
             <span>Partneri</span>
           </Link>
           <span className="verticalLine"></span>

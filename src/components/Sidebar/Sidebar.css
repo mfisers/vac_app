@@ -1,0 +1,17 @@
+.app-sidebar {
+	border: 2px solid #efefef;
+}
+
+.app-sidebar ul {
+	list-style: none;
+	padding: 5px 10px;
+	margin: auto; 
+}
+
+.app-sidebar a {
+	color: black;
+}
+
+.app-sidebar h5 {
+	margin: 0;
+}

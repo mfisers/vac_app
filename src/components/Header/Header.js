@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
 import Navigation from './components/Navigation/Navigation';
-//import Carousel from './components/Carousel/Carousel';
 import { Link } from 'react-router';
 
 class Header extends Component {
